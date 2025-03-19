@@ -8,6 +8,8 @@ public:
   Compressor();
   ~Compressor();
   std::string encode(std::string const &inputString);
+  std::string decode(std::string const &inputString);
+  
 };
 
 #endif // COMPRESSOR_HPP
